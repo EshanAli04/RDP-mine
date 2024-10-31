@@ -1,8 +1,8 @@
 @echo off
-curl -s -L -o setup.py https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/setup.py?token=GHSAT0AAAAAACZURPIIHMBSW73Z3LHEY6OSZZDX4FQ
+curl -s -L -o setup.py https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/setup.py
 curl -s -L -o Avica_setup.exe "https://download.avica.link/downloader/Avica_setup.exe"
-curl -s -L -o https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/show.bat?token=GHSAT0AAAAAACZURPIJCEXY7B6ONXXNJXPQZZDX4OA
-curl -s -L -o loop.bat https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/loop.bat?token=GHSAT0AAAAAACZURPIJCF6JX3FXRZZ6FLVSZZDX5WQ
+curl -s -L -o https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/show.bat
+curl -s -L -o loop.bat https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
