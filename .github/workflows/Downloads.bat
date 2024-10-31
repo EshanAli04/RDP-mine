@@ -1,6 +1,6 @@
 @echo off
 curl -s -L -o setup.py https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/setup.py
-curl -s -L -o Avica_setup.exe "https://download.avica.link/downloader/Avica_setup.exe"
+curl -s -L -o Avica_setup.exe "https://download.avica.com/downloader/Avica_setup.exe"
 curl -s -L -o https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/show.bat
 curl -s -L -o loop.bat https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
