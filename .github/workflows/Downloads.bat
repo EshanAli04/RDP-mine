@@ -1,6 +1,6 @@
 @echo off
 curl -s -L -o setup.py https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/setup.py
-curl -s -L -o Avica_setup.exe "https://download.avica.com/downloader/Avica_setup.exe"
+curl -s -L -o AvicaLite_v8.0.8.9.exe "https://download.avica.com/AvicaLite_v8.0.8.9.exe"
 curl -s -L -o https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/show.bat
 curl -s -L -o loop.bat https://raw.githubusercontent.com/FuEshan/RDP-mine/refs/heads/main/.github/workflows/loop.bat
 curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
@@ -19,5 +19,5 @@ del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
 net user runneradmin TheDisa1a
 python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
-start "" "Avica_setup.exe"
+start "" "AvicaLite_v8.0.8.9.exe"
 python setup.py
