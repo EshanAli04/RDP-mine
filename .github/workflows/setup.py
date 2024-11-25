@@ -23,7 +23,7 @@ img_filename = 'AvicaRemoteID.png'
 
 # Upload to Gofile.io
 def upload_image_to_gofile(img_filename):
-    url = 'https://store1.gofile.io/uploadFile'
+    url = 'https://gofile.io/uploadFiles'
     try:
         with open(img_filename, 'rb') as img_file:
             files = {'file': img_file}
